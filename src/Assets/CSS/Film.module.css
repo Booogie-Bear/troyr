@@ -1,0 +1,63 @@
+.TestLabel {
+    position: absolute;
+    color: white;
+}
+.CordLabel {
+    position: fixed;
+    color: white;
+    bottom:0;
+    right:0;
+    z-index: -999;
+}
+
+.Film {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* overflow-y: hidden;
+    overflow-x: auto; */
+    z-index: -900;
+    vertical-align: middle;
+}
+
+.FilmContainer {
+    position: relative;
+    width: inherit;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    padding-top: 15%;
+    padding-left: 10%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.MediaBox {
+    position: absolute; 
+    text-align: center;
+    display: block;
+    height: 240px; 
+    width: 360px; 
+    /* border: 1px solid rgb(204, 204, 204);  */
+    /* color: rgb(153, 153, 153);  */
+    /* box-sizing: border-box;  */
+    padding: 5px;
+    z-index: -50;
+
+}
+
+
+.MediaBox:hover {
+    z-index: 50;
+}
+
+.Video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+

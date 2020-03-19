@@ -1,0 +1,34 @@
+.VideoContainer {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -900;
+}
+
+/* .PosLabel {
+    font-size: 0.6em;
+    color: white;
+    display: inline;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -100;
+} */
+
+/* Style the video: 100% width and height to cover the entire window */
+.Video {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: -1000;
+    background-size: calc(100% + 50px);
+}
+/* LANDING REEL ASPECT RATIO 1920x865 */
+/* X = 2132 Y = 1088*/

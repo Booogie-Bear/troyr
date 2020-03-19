@@ -1,0 +1,56 @@
+.NavMenu {
+    width: 300px;
+    background: transparent;
+    height: 300px;
+    opacity: 0.75;
+    position: absolute;
+    z-index: 1;
+}
+
+.LogoContainer {
+    width: inherit;
+    height: 100px;
+    margin-left: 40px;
+}
+
+.Logo {
+    size: 100vw;
+    margin-top: 40px;
+    max-width: 50vw;
+    max-height: auto;
+    z-index: 0;
+}
+
+
+.ListContainer {
+    margin-left: 60px;
+    width: 230px;
+    height:auto;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+.List {
+    width:inherit;
+    height: auto;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Links {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 15px;
+    z-index: 100;
+}
+.Links:hover {
+    color: rgba(255, 255, 255);
+    /* letter-spacing: 20px; */
+    /* -webkit-animation: filter-animation 3s infinite; */
+    /* animation: filter-animation 3s infinite; */
+}
+
